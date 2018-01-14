@@ -1,0 +1,44 @@
+#wrapper{
+  background: #ddd;
+  height: 100vh;
+  .content-page{
+    width: 80%;
+    margin: 0 auto;
+  }
+  h2{
+    display: table;
+    margin: 0 auto;
+    padding-top: 100px;
+  }
+  .green{
+    color: green;
+  }
+  .red{
+    color: red;
+  }
+  .err-block{
+    display: none;
+    background: red;
+    color: white;
+    padding: 20px;
+  }
+  form{
+    margin-bottom: 20px;
+      label{
+        display: block;
+      }
+  }
+  .head{
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    .right{
+      float: right;
+    }
+  }
+  table{
+    th{
+      background: #a9a7a7;
+    }
+  }
+}
